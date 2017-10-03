@@ -1,1 +1,1 @@
-addSbtPlugin("org.scala-sbt" % "sbt-jacoco" % "3.0.0-M2")
+addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.0.2")
