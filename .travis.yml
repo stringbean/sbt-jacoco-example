@@ -7,4 +7,4 @@ script:
   - sbt clean jacoco
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -f target/scala-2.12/jacoco/data/jacoco.exec
+  - sbt jacocoCoveralls
